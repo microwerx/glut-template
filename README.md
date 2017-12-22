@@ -1,5 +1,5 @@
 # glut-template
-# Copyright (C) 2017 Jonathan Metzgar
+Copyright (C) 2017 Jonathan Metzgar
 
 This is boilerplate OpenGL Utility Toolkit code. Why reinvent the wheel everytime you just want to get some C++ OpenGL going?
 
