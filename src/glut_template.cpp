@@ -30,7 +30,6 @@
 #include <string>
 #include <regex>
 #include <glut_extensions.hpp>
-#include "glew.c"
 
 #ifndef WIN32
 #define APIENTRY
@@ -49,7 +48,7 @@ struct Configuration
 };
 
 const char *g_windowTitle = "GLUT Template";
-int g_displayMode = GLUT_DOUBLE | GLUT_STENCIL | GLUT_RGBA | GLUT_DEPTH | GLUT_MULTISAMPLE | GLUT_SRGB;// | GLUT_BORDERLESS;
+int g_displayMode = GLUT_DOUBLE | GLUT_STENCIL | GLUT_RGBA | GLUT_DEPTH;// | GLUT_MULTISAMPLE | GLUT_SRGB;// | GLUT_BORDERLESS;
 int g_screenWidth = 1280;
 int g_screenHeight = 720;
 bool g_OpenGLCoreProfileOnly = false;

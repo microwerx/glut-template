@@ -25,3 +25,8 @@ This is boilerplate OpenGL Utility Toolkit code. Why reinvent the wheel everytim
 * Load/Save PPM files
 * Load/Save SCN/OBJ/MTL files (Alias/Wavefront derivative)
 * Some more glutSolid... and glutWire... drawing functions
+
+## Required libraries
+
+* libglew2-dev
+* freeglut3-dev
